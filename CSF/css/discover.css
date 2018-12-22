@@ -1,0 +1,226 @@
+@font-face {
+	font-family: main;
+	src: url(../fonts/georgia_italic.ttf);
+}
+
+html,body {
+	width: 100%;
+}
+
+body {
+	background: #E4A034;
+    width: 100%;
+    height: 1980px;
+
+}
+
+@keyframes titleEffect{
+	0% {transform: scale(0.8);}
+	100% {transform: scale(0.9);}
+}
+
+.title { 
+   font-family: main;
+   font-size: 80px;
+   color: white;
+   position: absolute;
+   width: 800px;
+   transform: translate(-380px,0);
+   text-align: center;
+   left: 25%;
+   top: 40%;
+   transform: scale(0.8);
+   animation-name: titleEffect; 
+	animation-duration: 1.5s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+}
+
+.menuicon {
+	position: fixed;
+	left: 100%;
+	z-index: 1;
+}
+
+
+.menu {
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 99;
+	display: none;
+}
+
+
+
+
+
+.logo {
+	position: fixed;
+	z-index: 1;
+}
+
+.bg1 {
+	width: 100%;
+	height: 840px;
+	position: absolute;
+	background-color: #E9E9E1;
+	transform: translate(0,0);
+	left: 0px;
+	top: 840px;
+	right: 0px;
+	width: 100%;
+	height: 840px;
+}
+
+.sub {
+	height: 700px;
+}
+
+.sub_nav {
+	width: 100%;
+}
+
+.thumb {
+	width: 33.33%;
+	height: 700px;
+	position: absolute;
+}
+
+.bar {
+	width: 250px;
+	height: 1.5px;
+	background-color: #CFD1C3;
+	position: absolute;
+	left: 41%;
+
+}
+
+
+
+.hm {
+	background: url(../images/discover/hm.jpg) center no-repeat;
+	background-size: cover;
+	left: 0%;
+}
+
+.everlane {
+	background: url(../images/discover/everlanemain.jpg) center no-repeat;
+	background-size: cover;
+	left: 33.33%;
+}
+
+.patagonia {
+	background: url(../images/discover/patagoniamain.jpg) center no-repeat;
+	background-size: cover;
+	left: 66.66%;
+}
+
+a.hbutton {
+	width: 150px;
+	height: 25px;
+	background-color: #E4A034;
+	margin: 1.5em 0em 0em 5em;
+	padding: 20px 30px 20px 30px;
+	font-family: "poppins";
+	font-weight: 500;
+	font-size: 25px;
+	text-align: center;
+	float: left;
+	color: white;
+	position: relative;
+	text-decoration: none;
+}
+
+a.hbutton:hover {
+	background-color: #384837;
+	transition: 0.5s;
+}
+
+a.ebutton {
+	width: 150px;
+	height: 25px;
+	background-color: #E4A034;
+	margin: 1.5em 0em 0em 11em;
+	padding: 20px 30px 20px 30px;
+	font-family: "poppins";
+	font-weight: 500;
+	font-size: 25px;
+	text-align: center;
+	float: left;
+	color: white;
+	position: relative;
+	text-decoration: none;
+}
+
+a.ebutton:hover {
+	background-color: #384837;
+	transition: 0.5s;
+}
+
+a.pbutton {
+	width: 150px;
+	height: 25px;
+	background-color: #E4A034;
+	margin: 1.5em 0em 0em 11em;
+	padding: 20px 30px 20px 30px;
+	font-family: "poppins";
+	font-weight: 500;
+	font-size: 25px;
+	text-align: center;
+	float: left;
+	color: white;
+	position: relative;
+	text-decoration: none;
+}
+
+a.pbutton:hover {
+	background-color: #384837;
+	transition: 0.5s;
+}
+
+
+
+.footer {
+	width: 100%;
+	height: 300px;
+	background-color: #384837;
+	position: absolute;
+	top: 1680px;
+}
+
+.designed {
+	font-family: "poppins"; 
+	font-weight: 300;
+	color: white;
+	font-size: 12pt;
+	text-align: right;
+	line-height: 10pt;
+	margin-top: 220px;
+	margin-right: 50px;
+
+}
+
+.logofooter {
+	position: absolute;
+	right: 50px;
+	top: 65px;
+	z-index: 1;
+}
+
+.type_d {
+	font-family: "poppins";
+	font-size: 16pt;
+	padding-left: 60px; 
+	top: -25px;
+	left: 10px;
+	color: white;
+	text-align: left;
+	position: relative;
+	text-decoration: none;
+
+}
+
+
+
+

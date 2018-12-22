@@ -1,0 +1,129 @@
+@font-face {
+	font-family: main;
+	src: url(../fonts/georgia_italic.ttf);
+}
+
+html,body {
+	width: 100%;
+}
+
+body {
+    width: 100%;
+    height: 840px;
+
+}
+
+.menu {
+	background: #E9E9E1;
+    width: 1440px;
+    height: 840px;
+}
+
+#toplogo {
+	opacity: 100;
+	position: relative;
+	left: 41.5%;
+	top: 35px;
+}
+
+.closemenu {
+	position: absolute;
+	z-index: 1;
+	top:62px;
+	right: 90px;
+}
+
+.menuitem {
+	text-decoration: none;
+}
+
+#list_menu {
+	margin-top: 60px;
+
+	text-align: center;
+	position: relative;
+	opacity: 100;
+}
+
+.type_a {
+	font-family: main;
+	font-size: 30px;
+	color: #305E2D;
+	line-height: 60px;
+}
+
+.type_a:hover {
+	color: white;
+	transition: 0.5s;
+}
+
+.type_b {
+	font-family: "poppins";
+	font-weight: 400;
+	font-size: 26px;
+	color: #305E2D;
+	line-height: 50px;
+}
+
+.type_b:hover {
+	color: white;
+	transition: 0.5s;
+}
+
+.bar1 {
+	width: 250px;
+	height: 1.5px;
+	background-color: #CFD1C3;
+	position: absolute;
+	left: 41%;
+	top: 463px;
+}
+
+.bar2 {
+	width: 250px;
+	height: 1.2px;
+	background-color: #CFD1C3;
+	position: absolute;
+	left: 41%;
+	top: 527px;
+}
+
+.bar3 {
+	width: 250px;
+	height: 1.5px;
+	background-color: #CFD1C3;
+	position: absolute;
+	left: 41%;
+	top: 596px;
+}
+
+.bar4 {
+	width: 250px;
+	height: 1.5px;
+	background-color: #CFD1C3;
+	position: absolute;
+	left: 41%;
+	top: 660px;
+}
+
+.type_c {
+	font-family: main;
+	font-size: 30px;
+	color: #305E2D;
+	line-height: 90px;
+	left: -28px;
+	top: 4px;
+}
+
+.type_c:hover {
+	color: white;
+	transition: 0.5s;
+}
+
+
+
+
+
+
+
+

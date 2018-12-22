@@ -1,0 +1,336 @@
+@font-face {
+	font-family: main;
+	src: url(../fonts/georgia_italic.ttf);
+}
+
+@font-face {
+	font-family: reg;
+	src: url(../fonts/georgia.ttf);
+}
+
+html,body {
+	width: 100%;
+}
+
+body {
+	background: #CFD1C3;
+    width: 1440px;
+    height: 100%;
+}
+
+.logo{
+	z-index: 99;
+	position: fixed;
+}
+
+.menuicon {
+	position: fixed;
+	left: 100%;
+	z-index: 99;
+}
+
+
+.menu {
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 99;
+	display: none;
+}
+
+
+
+.hmexplain {
+	width: 480px;
+	font-family: reg;
+	font-size: 14pt;
+	line-height: 25pt;
+	color: #305E2D;
+	text-align: left;
+	padding-left: 100px;
+	padding-top: 160px;
+}
+
+.hmimg1 {
+	position: absolute;
+	top: 0;
+	right: 0px;
+}
+
+.second_section {
+	position: absolute;
+	background-color: #E9E9E1;
+	top: 1680px;
+	width: 1440px;
+	height: 840px;
+}
+
+.hmimg2 {
+	position: relative;
+	top: -840px;
+}
+
+.textbox {
+	position: absolute;
+	width: 400px;
+	padding: 100px 100px 100px 100px;
+	top: -740px;
+	z-index: 1;
+	background-color: #E9E9E1;
+}
+
+
+.text1 {
+	font-family: "poppins";
+	font-weight: 400;
+	font-size: 20pt;
+	line-height: 25pt;
+	color: #305E2D;
+	text-align: left;
+	padding-bottom: 30px;
+}
+
+.bar {
+	width: 125px;
+	height: 4px;
+	background-color: #305E2D;
+	margin-bottom: 30px;
+}
+
+.text2 {
+	font-family: reg;
+	font-size: 13pt;
+	line-height: 25pt;
+	color: #305E2D;
+	text-align: left;
+}
+
+.text1_w {
+	font-family: "poppins";
+	font-weight: 400;
+	font-size: 20pt;
+	line-height: 25pt;
+	color: white;
+	text-align: left;
+	padding-bottom: 30px;
+}
+
+.bar_w {
+	width: 125px;
+	height: 4px;
+	background-color: white;
+	margin-bottom: 30px;
+}
+
+.text2_w {
+	font-family: reg;
+	font-size: 13pt;
+	line-height: 25pt;
+	color: white;
+	text-align: left;
+}
+
+.look {
+	position: absolute;
+	font-family: main;
+	font-size: 45pt;
+	line-height: 27pt;
+	color: white;
+	text-align: left;
+	top: -250px;
+	right: 50px;
+	z-index: 3;
+}
+
+.circle {
+	position: absolute;
+	right: 0px;
+	top: -600px;
+	z-index: 2;
+
+}
+
+
+
+.third_section {
+	position: absolute;
+	background-color: #E9E9E1;
+	top: 1680px;
+	width: 1440px;
+	height: 840px;
+}
+
+.hmimg3 {
+	position: absolute;
+	left: 0;
+	top: 80px;
+}
+
+.textbox2 {
+	position: absolute;
+	width: 500px;
+	padding: 100px 100px 100px 100px;
+	top: 0px;
+	left: 700px;
+	z-index: 1;
+	background-color: #CFD1C3;
+}
+
+.fourth_section {
+	position: absolute;
+	background-color: #CFD1C3;
+	top: 2520px;
+	width: 1440px;
+	height: 840px;
+}
+
+.hmimg4 {
+	position: absolute;
+	top: 0px;
+	right: 100px;
+	z-index: 2;
+}
+
+.textbox3 {
+position: absolute;
+background-color: #E4A034;
+width: 500px;
+padding: 100px 150px 100px 100px;
+left: 100px;
+top: 100px;
+}
+
+a.hbutton {
+	width: 210px;
+	height: 25px;
+	background-color: #E4A034;
+	left: 595px;
+	top: 3600px;
+	padding: 20px 30px 20px 30px;
+	font-family: "poppins";
+	font-weight: 500;
+	font-size: 25px;
+	text-align: center;
+	color: white;
+	position: absolute;
+	z-index: 5;
+	text-decoration: none;
+
+}
+
+a.hbutton:hover {
+	background-color: #384837;
+	transition: 0.5s;
+	text-decoration: none;
+}
+
+
+.fifth_section {
+	position: absolute;
+	background-color: #E9E9E1;
+	top: 3800px;
+	width: 1440px;
+	height: 540px;
+}
+
+.circle_footer{
+	position: relative;
+	left: 539px;
+	top: 15%;
+
+}
+
+.group_next{
+	top: 215px;
+	left: 45%;
+	position: absolute;
+	z-index: 3;
+}
+
+.next {
+	font-family: main;
+	font-size: 16pt;
+	line-height: 25pt;
+	color: #305E2D;
+	text-align: left;
+	top: 50%;
+	left: 50%;
+}
+
+.bar_y{
+	width: 44px;
+	height: 3px;
+	background-color: #E4CC34;
+	margin-bottom: 30px;
+}
+
+
+
+.go {
+	font-family: "poppins";
+	font-weight: 400;
+	font-size: 20pt;
+	line-height: 14pt;
+	color: #305E2D;
+	text-align: left;
+	text-decoration: none;
+}
+
+.group_go{
+	position: absolute;
+	left: 50%;
+	top: 223px;
+}
+
+.arrow{
+	position: relative;
+	top: 20px;
+}
+
+
+
+
+
+
+
+
+
+.footer {
+	width: 100%;
+	height: 300px;
+	background-color: #384837;
+	position: absolute;
+	top: 4340px;
+}
+
+.designed {
+	font-family: "poppins"; 
+	font-weight: 300;
+	color: white;
+	font-size: 12pt;
+	text-align: right;
+	line-height: 10pt;
+	margin-top: 220px;
+	margin-right: 50px;
+
+}
+
+.logofooter {
+	position: absolute;
+	right: 50px;
+	top: 65px;
+	z-index: 1;
+}
+
+.type_d {
+	font-family: "poppins";
+	font-size: 16pt;
+	padding-left: 60px; 
+	top: -25px;
+	left: 10px;
+	color: white;
+	text-align: left;
+	position: relative;
+	text-decoration: none;
+
+}
